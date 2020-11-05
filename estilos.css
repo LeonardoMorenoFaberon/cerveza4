@@ -1,0 +1,234 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+root {
+  --lihovertop: 3px;
+  --colornavmenu: #273b47;
+}
+body {
+  /* background-color: #efefef; */
+}
+.menu {
+  background-color: #273b47;
+  /* line-height: 60px; */
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  padding: 7px 0px;
+}
+
+.menu .logo{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.menu .logo img {
+  border-radius: 50%;
+  margin-left: 120px;
+
+}
+
+.menu ul {
+  display: flex;
+  justify-content: flex-start;
+  margin-right: 120px;
+}
+
+.menu li {
+  padding: 25px 10px 25px 0px;
+  list-style: none;
+  /* background-color: blue; */
+  cursor: pointer;
+  line-height: 10px;
+  box-sizing: content-box;
+}
+
+.menu li:hover {
+  border-top: 5px solid greenyellow;
+  padding: 20px 10px 25px 0px;
+}
+
+.menu li a {
+  color: whitesmoke;
+  text-decoration: none;
+  border-left: 1px solid white;
+  padding-left: 10px;
+}
+
+ul button {
+  margin: 11px 10px;
+  background: #ff4842;
+  color: white;
+  padding: 0px 10px;
+  border-radius: 10px;
+  border: 1px solid #ff4842;
+  cursor: pointer;
+}
+
+/*menu nav    fin-----------------------*/
+
+/*buscador    inicio----------------------*/
+.buscador {
+  padding: 2px 3px;
+  background-color: #efefef;
+}
+
+.buscador .formulario {
+  /* background-color: yellow; */
+  display: flex;
+  margin-left: 75%;
+}
+
+.buscador .input {
+  /* border-radius: 10px; */
+}
+
+.buscar {
+  padding-left: 10px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  height: 33px;
+}
+
+
+.button_lupa {
+  background-color: #273b47;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/* Imagen principal --------------------------------------*/
+.ContenedorImagenPrincipal {
+  /* border: 3px solid red; */
+  background-color: #efefef;
+  display: flex;
+  justify-content: center;
+}
+.figurePrincipal {  
+    /* border: 3px solid blue; */
+    position: relative;
+    margin: 0 auto 0 auto;
+    /* height: 702px; */
+    height: 600px;
+    overflow: hidden;
+    width: 80%;
+}
+
+.imagenPrincipal {
+  /* border: 3px solid green; */
+  width: 100%;
+}
+
+.targetaSuperpuesta{
+  background-color: rgba(245, 245, 245, 0.7);
+  position: relative;
+  top: -300px;
+  left: 90px;
+  width: 270px;
+  padding: 10px;
+  /* border: 3px solid violet; */
+}
+
+.titulo_tarjeta{
+  height: 63px;
+  border-bottom: 2px solid gray;
+  font-size: 20px;
+}
+
+
+.subtarjeta{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+
+.subtarjeta_izq{
+  display: flex;
+  justify-content: flex-start;
+}
+
+.texto_subtarjeta{
+  margin-top: 7px;
+}
+
+/* Imagen principal --------------------------------------*/
+
+
+/* section menu imagenes----------------------------------*/
+.fila_menu_imagenes{
+  width: 83%;
+  display: flex;
+  justify-content: space-around;
+  margin: 10px auto;
+}
+
+/*minibaner ---------------------------*/
+
+.menu_imagenes{
+  /* text-align: center; */
+  display: flex;
+  flex-direction: column;
+  margin-left: 25px;
+  width: 100%;
+}
+.minibaner{
+  width: 110%;
+  /* border: 3px solid blue; */
+}
+
+.imagen_feria{
+  /* width: 100%; */
+  width: 372px;
+}
+.contenedor_texto{
+  margin-top: 10px;
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  color: gray;
+  width: 365px;
+  
+}
+
+.contenedor_subtitulo{
+  display: flex;
+  justify-content: space-between;
+}
+
+.texto_titulo {
+  border-bottom: 3px solid gray;
+  font-size: 20px;
+  /* float: left; */
+  /* width: 365px; */
+}
+/*minibaner ---------------------------*/
+
+/*footer*/
+.footer{
+  display: flex;
+  justify-content: center;
+  color: gray;
+}
+.frasepalabra {
+  border: none;
+  margin: 0 3px 0 3px;
+  margin-top: 10px;
+}
+.paginaactual {
+  margin-right: 5px;
+  margin-left: 24px;
+}
+
+.botonpaginasiguiente{
+  /* width: 50px;
+  height: 50px; */
+  padding: 10px 10px;
+  background-color: #efefef;
+  appearance: none;
+  border: 1px solid #cccccc; /*rgba(239,239,239,0.8);*/
+  margin: 0 10px;
+}
